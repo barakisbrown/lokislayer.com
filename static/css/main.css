@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background-color: #CCCCCC;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo::after {
+    content: "";
+    background: url(/Images/lokislayer_logo.png);
+    opacity: 0.5;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: -1;
+    position: absoulte;
+}
+
+img {
+    width: 22%;
+}
+
+.name {
+    text-align: center;
+}
+
+.date {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.updates {
+    margin-left: 50px;
+    width: 600px;
+    line-height: 25px;
+
+}
+
+.Copyright {
+    text-align: center;
+    background-color: wheat;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+}
+
+.embed {
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
