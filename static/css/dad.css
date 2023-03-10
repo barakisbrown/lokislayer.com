@@ -1,0 +1,28 @@
+body {
+    background-color:Gray;
+	font-family:Arial,Sans-Serif;
+	color:Black;
+    margin: 0;
+}
+
+p {
+    line-height: 21px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.my-dad {
+    display: flex;
+    justify-content: center;
+}
+
+
+.dad {
+	width:320px;
+	height:352px;
+}
